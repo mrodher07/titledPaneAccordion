@@ -53,10 +53,6 @@ public class HelloApplication extends Application {
         tp2.setContent(grid2);
         grid.add(tp2, 0,2);
 
-        //Ejemplo de ComboBox editable
-
-
-
         Scene scene = new Scene(grid, 320, 240);
         stage.setTitle("Ejemplos sobre el componente ComboBox");
         stage.setScene(scene);
