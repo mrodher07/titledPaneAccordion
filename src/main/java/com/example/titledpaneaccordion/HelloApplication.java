@@ -51,6 +51,7 @@ public class HelloApplication extends Application {
         grid2.add(new TextField(), 1, 2);
         tp2.setText("Titled Pane Formulario");
         tp2.setContent(grid2);
+        tp2.setAnimated(false);
         grid.add(tp2, 0,2);
 
         Scene scene = new Scene(grid, 320, 240);
